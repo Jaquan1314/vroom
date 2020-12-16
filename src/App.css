@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  background: transparent;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img[src] {
+  max-width: 300px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.vehicleCont {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 3px 2px grey;
+  max-width: 33em;
+  margin: 10px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-content {
+  padding: 12px 100px;
+}
+
+.formCont {
+  text-align: center;
+  margin: 60px 0;
+}
+
+input {
+  margin: 20px 0;
+  height: 50px;
+  width: 9%;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 3px 6px grey;
+  transition: ease-in-out, width 0.35s ease-in-out;
+  outline: none;
+}
+
+input:hover {
+  width: 25%;
 }

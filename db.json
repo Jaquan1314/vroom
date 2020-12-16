@@ -1,0 +1,49 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2013,
+      "trim": "EX",
+      "image": "https://www.motortrend.com/uploads/sites/10/2015/11/2013-honda-accord-ex-l-v6-at-sedan-angular-front.png",
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "make": "Acura",
+      "model": "RDX",
+      "year": 2013,
+      "trim": "Base",
+      "image": "https://m.media-amazon.com/images/I/71+RFuw0U+L._UY560_.jpg",
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "make": "Toyota",
+      "model": "Supra",
+      "year": 2020,
+      "trim": "3.0 Premium",
+      "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-toyota-supra-309-1547151264.jpg?crop=0.913xw:0.914xh;0.0374xw,0.0390xh&resize=768:*",
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "make": "BMW",
+      "model": "M4",
+      "year": 2018,
+      "trim": "Base",
+      "image": "https://cnet3.cbsistatic.com/img/zv4-Tk8a_GttQ8v8dGcr-lLsxRg=/1200x675/2018/05/25/c50d7ddb-5a5c-4eb6-8b9d-f9b63ff05813/2018-bmw-m4-1.jpg",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "make": "Volkswagen",
+      "model": "Golf GTI",
+      "year": 2019,
+      "trim": "Autobahhn",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpictures.topspeed.com%2FIMG%2Fcrop%2F201906%2F2019-volkswagen-golf-5_800x0w.jpg&f=1&nofb=1",
+      "favorite": false
+    }
+  ]
+}
